@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="systemInfo"
+            type="com.huawei.z00426996.voicewakeuptest001.Model.Bean.SystemInfo"/>
+    </data>
+</layout>

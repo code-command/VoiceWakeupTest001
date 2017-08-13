@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="systemInfo"
+            type="com.huawei.z00426996.voicewakeuptest001.Model.Bean.SystemInfo"/>
+
+        <variable
+            name="wakeupSwitch"
+            type="com.huawei.z00426996.voicewakeuptest001.ViewModel.ButtonViewModel.WakeupSwitchButtonViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/register_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/register_btn_wakeup_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/register_btn_wakeup_word"
+            android:layout_margin="15dp"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/buttonText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:onClick="w@{wakeupSwitch.onClick}"/>
+
+        <Button
+            android:id="@+id/register_btn_wakeup_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:textColor="@color/buttonText"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/register_btn_wakeup_voice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_btn_wakeup_word"
+            android:layout_margin="15dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/buttonText"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</layout>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">VoiceWakeupTest001</string>
+
+    <string name="activity_register">语音注册</string>
+    <string name="activity_test">唤醒测试</string>
+    <string name="activity_auto">自动化测试</string>
+
+    <string name="voice_weakup">语音唤醒</string>
+    <string name="weakup_word">唤醒词</string>
+    <string name="weakup_vocice">唤醒语音</string>
+
+
+    <string name="hint_input">请输入</string>
+
+
+    <string name="unit_open">开启</string>
+    <string name="unit_close">关闭</string>
+
+    <string name="unit_ok">确认</string>
+    <string name="unit_cancel">取消</string>
 </resources>
